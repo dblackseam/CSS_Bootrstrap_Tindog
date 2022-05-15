@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: #fff
+}
+
+/* Title Section */
+#title .container-fluid {
+    padding: 3% 15% 15%;
+    text-align: left;
+}
+
+#iphone-dog-img {
+    transform: rotate(25deg);
+    width: 25%;
+    position: absolute;
+    right: 25%;
+}
+.title-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar {
+    padding-bottom: 7rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+
+/* Features */
+#features {
+    position: relative;
+}
+.feature {
+    padding: 0 5.1%;
+}
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.features-icon:hover {
+    color: #ff4c68;
+}
+.feature-heading {
+    font-size: 1.5rem;
+}
+
+/* Testimonial */
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-image {
+    border-radius: 50%;
+    width: 120px;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-image {
+    width: 15%;
+    margin: 0 20px 50px;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.price-card-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Media Query */
+@media (max-width: 1231px) {
+    #title .container-fluid {
+        text-align: center;
+    }
+
+    #iphone-dog-img {
+        position: static;
+        transform: rotate(0);
+        width: 65%;
+    }
+
+    .navbar {
+        padding-bottom: 4.5rem;
+    }
+
+}
+
+/* CTA Section (call to action) */
+.cta-button {
+    margin: 5% 1.5% 4%;
+}
+
+/* Footer */
+.social-media-icon {
+    padding: 2% 0.7%;
+}
